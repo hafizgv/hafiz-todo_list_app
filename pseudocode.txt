@@ -1,0 +1,14 @@
+PROGRAM To-Do List
+
+READ AND WRITE "kegiatan" with string
+
+IF "add" equal "TRUE"
+    STORE "kegiatan" with your activity
+    PRINT "kegiatan"
+ELSE
+    IF "exit" equal "TRUE"
+        exit
+    ELSE
+        CHANGE LIST, EDIT, CHECK LIST, REMOVE
+    END IF
+END IF

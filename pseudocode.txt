@@ -10,6 +10,18 @@ ELSE
     IF "exit" equal "TRUE"
         exit
     ELSE
-        CHANGE LIST, EDIT, CHECK LIST, REMOVE
+        FUNCTION Change List()
+            Changing activity list order
+        END FUNCTION
+        FUNCTION Edit activity()
+            Rewrite activity
+            RETURN "kegiatan"
+        END FUNCTION 
+        FUNCTION Checklist()
+            Mark an activity as finished
+        END FUNCTION 
+        FUNCTION Remove activity()
+            Delete an activity
+        END FUNCTION
     END IF
 END IF

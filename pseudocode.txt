@@ -1,6 +1,7 @@
 PROGRAM To-Do List
 
 READ AND WRITE "kegiatan" with string
+DISPLAY "kegiatan"
 
 IF "add" equal "TRUE"
     STORE "kegiatan" with your activity

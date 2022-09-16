@@ -1,0 +1,27 @@
+PROGRAM To-Do List
+
+READ AND WRITE "kegiatan" with string
+DISPLAY "kegiatan"
+
+IF "add" equal "TRUE"
+    STORE "kegiatan" with your activity
+    PRINT "kegiatan"
+ELSE
+    IF "exit" equal "TRUE"
+        exit
+    ELSE
+        FUNCTION Change List()
+            Changing activity list order
+        END FUNCTION
+        FUNCTION Edit activity()
+            Rewrite activity
+            RETURN "kegiatan"
+        END FUNCTION 
+        FUNCTION Checklist()
+            Mark an activity as finished
+        END FUNCTION 
+        FUNCTION Remove activity()
+            Delete an activity
+        END FUNCTION
+    END IF
+END IF

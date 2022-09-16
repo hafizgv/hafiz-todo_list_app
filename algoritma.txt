@@ -3,5 +3,6 @@ Algoritma To-Do List:
 2.Tambahkan kegiatan yang ingin dilakukan
 3.Edit isi kegiatan 
 4.Pindahkan urutan kegiatan
-5.Hapus kegiatan yang tidak dinginkan lagi
-6.Simpan perubahan
+5.Checklist kegiatan jika sudah dikerjakan
+6.Hapus kegiatan yang tidak dinginkan lagi
+7.Simpan perubahan
